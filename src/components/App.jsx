@@ -40,7 +40,7 @@ export class App extends Component {
           bad={bad}
           total={this.countTotalFeedback()}
           positiveFeedback={this.countPositiveFeedbackPercentage()}/>) : (
-          <h4>There is no feedback</h4>)}
+          <div className={AppStyles.title}>There is no feedback</div>)}
       </Section>
       </div>
     )
